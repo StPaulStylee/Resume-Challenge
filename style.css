@@ -1,1 +1,9 @@
-
+/****************************************************
+Reset
+****************************************************/
+body, div, h1, h2, h3, p, a, ul, li, header, body, main, section {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
