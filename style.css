@@ -1,7 +1,8 @@
  /****************************************************
 Reset
 ****************************************************/
-body, div, h1, h2, h3, p, a, ul, li, header, body, main, section {
+body, address, div, h1, h2, h3, p, a, ul, li, header, body, main, section {
+  font-style:normal;
   font-weight: 400;
   padding: 0;
   margin: 0;
@@ -13,7 +14,7 @@ Base
 ****************************************************/
 .bg-container {
     background-image: url(bg.png);
-    border: 1px solid #858585;  
+    border: 1px solid #858585;
     box-sizing: border-box;
     padding: 7em 13em;
 
@@ -58,16 +59,16 @@ a:hover, a:focus, a:active {
 
 p {
     font-size: 1.5em;
-  
+
 }
 
 ul {
-  
+
 }
 
 li {
     font-size: 1.5em;
-  
+
 }
 
 img {
@@ -129,7 +130,7 @@ Modal
 }
 
 .modal-content a:hover {
-    color: #ff8e7a; 
+    color: #ff8e7a;
 }
 
 .modal-overlay {
@@ -171,7 +172,7 @@ Header
 }
 
 .info li {
-  border-right: 1px solid #212121;  
+  border-right: 1px solid #212121;
   display: inline-block;
   font-family: 'Times New Roman', Perpetua, serif;
   font-size: 1.4em;
@@ -196,7 +197,7 @@ main
 }
 
 .code, .metro, .center, .institute, .hrcc, .connected {
-    position: relative;    
+    position: relative;
 }
 
 .date {
